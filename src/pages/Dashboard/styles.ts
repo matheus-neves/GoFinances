@@ -54,6 +54,15 @@ export const TableContainer = styled.section`
     width: 100%;
     border-spacing: 0 8px;
 
+    tbody tr {
+      transition: all 0.4s ease-in-out;
+
+      &:hover {
+        transform: translateX(15px);
+        opacity: 0.8;
+      }
+    }
+
     th {
       color: #969cb3;
       font-weight: normal;
